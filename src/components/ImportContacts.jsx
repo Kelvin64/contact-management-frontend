@@ -15,8 +15,7 @@ import {
   Upload as UploadIcon,
 } from '@mui/icons-material'
 import axios from 'axios'
-
-const API_URL = 'http://localhost:8080/api'
+import { API_URL } from '../../config'
 
 // Sample CSV template for users to download
 const sampleCSV = `First Name,Last Name,Email Address,Primary Phone Number
